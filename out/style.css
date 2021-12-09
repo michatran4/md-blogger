@@ -1,0 +1,12 @@
+body {
+	background: #151515 ;
+	color: white;
+	max-width: 800px ;
+	margin: auto ;
+	font-family: sans-serif ;
+}
+
+code {
+	overflow-wrap: break-word ;
+	color: green ;
+}

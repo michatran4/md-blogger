@@ -1,0 +1,2 @@
+page-beta.md
+page-alpha.md

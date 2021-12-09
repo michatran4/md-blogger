@@ -1,0 +1,5 @@
+{
+    "example": "Example section",
+    "example2": {"Example section 2":
+        "This is an optional header description."}
+}
