@@ -1,5 +1,6 @@
 # md-blogger
-md-blogger turns organized markdown files into a website.
+md-blogger turns organized markdown files into a website that acts as a
+reference manual.
 
 ## Dependencies
 - **markdown**, to convert markdown pages into html.
@@ -8,6 +9,11 @@ md-blogger turns organized markdown files into a website.
 ## Setup
 md-blogger requires a very specific structure for organization.
 
+The root directory should be organized into markdown folders containing markdown
+files. These folders are used as sections in a table of contents for the index
+page. The pages that the folder includes are indexed to be included under its
+section.
+
 ### ./build
 The python script, ```main.py```, should be in this folder along with the other
 required build files.
@@ -15,8 +21,8 @@ required build files.
 #### categories.json
 - Provide a map in the file with the key being the folder name without "-md"
 appended, and the value being what the section will be labeled as in the index.
-
-Have the value be a two element object if you wish to include a section/header description.
+- Have the value be a two element object if you wish to include a section/header
+description.
 
 #### index.html
 - Provide a header and a closer for the index page before the footer is placed.
@@ -41,7 +47,8 @@ generated html.
 - Provide a css file to be copied over.
 
 ### General notes
-- Clean builds are always done. ```./out``` is deleted every time the script is ran.
+- Clean builds are always done. ```./out``` is deleted every time the script is
+ran.
 - If access is denied, just rerun the script.
 - Markdown pages should be created with the ```../img``` path for images.
 - For footers to be placed properly with a separated line, reference pages
