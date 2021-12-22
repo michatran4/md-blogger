@@ -52,6 +52,7 @@ generated html.
 ran.
 - If access is denied, just rerun the script.
 - Markdown pages should be created with the ```../img``` path for images.
+- Markdown pages should be created with the ```../gists``` path for gists.
 - For footers to be placed properly with a separated line, reference pages
 should have 2 newlines at the end of each file.
 - Each reference page will only use its file name to know where to be placed. It
