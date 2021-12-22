@@ -5,6 +5,7 @@ reference manual.
 ## Dependencies
 - **markdown**, to convert markdown pages into html.
 - **lxml**, to make the html just a little bit prettier.
+- **bs4** for lxml.
 
 ## Setup
 md-blogger requires a very specific structure for organization.

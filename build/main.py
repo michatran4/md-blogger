@@ -75,4 +75,6 @@ if __name__ == "__main__":
     tree = etree.ElementTree(fromstring(html))
     tree.write('./out/index.html', encoding='utf-8', pretty_print=True)
     shutil.copyfile("./build/style.css", "./out/style.css")
+    # copy additional folders over
     shutil.copytree("./img", "./out/img")
+    shutil.copytree("./gists", "./out/gists")
